@@ -1,5 +1,7 @@
 TEMPLATE = lib
 
+CONFIG += shared_and_static build_all
+
 SOURCES += src/serial.cc
 
 INCLUDEPATH += include/
