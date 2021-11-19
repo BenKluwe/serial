@@ -297,7 +297,7 @@ Serial::getPort () const
 }
 
 void
-Serial::setTimeout (serial::Timeout &timeout)
+Serial::setTimeout (const serial::Timeout &timeout)
 {
   pimpl_->setTimeout (timeout);
 }
