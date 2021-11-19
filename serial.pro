@@ -7,6 +7,8 @@ SOURCES += src/serial.cc
 INCLUDEPATH += include/
 
 HEADERS += \
+	include/serial/impl/unix.h \
+	include/serial/impl/win.h \
 	include/serial/serial.h \
 	include/serial/v8stdint.h
 
