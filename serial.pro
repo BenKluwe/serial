@@ -2,6 +2,9 @@ TEMPLATE = lib
 
 CONFIG += shared_and_static build_all
 
+QMAKE_CXX = GCC_COLORS=auto ccache $$QMAKE_CXX
+QMAKE_CC = GCC_COLORS=auto ccache $$QMAKE_CC
+
 SOURCES += src/serial.cc
 
 INCLUDEPATH += include/
